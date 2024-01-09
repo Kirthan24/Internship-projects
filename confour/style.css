@@ -1,0 +1,49 @@
+body{
+  background: linear-gradient(to right, rgb(56, 189, 248), rgb(103, 232, 249));
+}
+h3{
+  text-align: center;
+  text-decoration: dashed;
+  color: #2c2c2c;
+    background-color: #d5d5d5;
+    letter-spacing: .05em;
+    text-shadow: 
+      4px 4px 0px #d5d5d5, 
+      7px 7px 0px rgba(0, 0, 0, 0.2);
+}
+.grid {
+  margin: auto;
+  border: 3px groove black ;
+  height: 300px;
+  width: 350px;
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background-color: darkcyan;
+}
+
+.grid div {
+  height: 50px;
+  width: 50px;
+}
+
+.pr{
+  background-color: lightblue;
+  border-radius: 20px;
+}
+.player-one {
+  background-image: url('z.png');
+  background-size: 100% 100%;
+  margin: 0;
+  border-radius: 20px;
+}
+
+.player-two {
+  background-image: url('r.png');
+  background-size: 100% 100%;
+  border-radius: 20px;
+}
